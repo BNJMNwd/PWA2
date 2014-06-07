@@ -1,0 +1,152 @@
+
+
+body {
+    font-family: 'Josefin Slab', serif;
+    background-image:url("../images/back.png");
+}
+
+a:link{
+    text-decoration: none;
+    color: #981b00;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #981b00;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active{
+    text-decoration: underline;
+    color: #878787;
+}
+
+
+p {
+    font-family: 'calibri', serif;
+    padding-top: 40px;
+    padding-left: 55px;
+    max-width: 475px;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+header {
+    color: #981b00;
+    background: #e6dccb;
+    height: 170px;
+    border-bottom: 5px solid #981b00;
+}
+
+h1 {
+    float: left;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+#register_top {
+    float: left;
+    padding-top: 15px;
+    padding-left: 385px;
+    font-size: 1.3em;
+    color: #878787;
+}
+
+#register_index {
+    font-size: 2em;
+    padding-top: 25px;
+    padding-left: 55px;
+}
+
+#log_in {
+    padding-top: 15px;
+    padding-left: 880px;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+#log_out {
+    padding-top: 15px;
+    padding-left: 860px;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+
+#wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+    -moz-box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+    box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+
+}
+
+#barrel {
+    clear: left;
+    background-image:url("../images/barrel.png");
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+
+
+#sign_up_form {
+    padding-left: 75px;
+    padding-top: 35px;
+    font-size: 1.3em;
+
+}
+
+label {
+
+}
+
+input {
+    display:block;
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 26px;
+    font-size: .9em;
+    font-family: 'Josefin Slab', serif;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #981b00;
+}
+
+
+#submit {
+    margin-top: 20px;
+    width: 140px;
+    position:absolute;
+    background:white;
+    height: 35px;
+
+}
+
+footer {
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    color: white;
+    background: #981b00;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+    padding-left: 30px;
+
+}
