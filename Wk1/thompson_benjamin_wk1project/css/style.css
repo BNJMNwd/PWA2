@@ -1,4 +1,7 @@
+/*Style Sheet for Chez Thompson*/
 
+
+/***********CSS for main elements *************/
 
 body {
     font-family: 'Josefin Slab', serif;
@@ -19,11 +22,11 @@ a:hover{
     text-decoration: underline;
     color: white;
 }
+
 a:active{
     text-decoration: underline;
     color: #878787;
 }
-
 
 p {
     font-family: 'calibri', serif;
@@ -50,6 +53,40 @@ h2 {
     padding-left: 30px;
     font-size: 2em;
 }
+
+footer {
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    color: white;
+    background: #981b00;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+input {
+    display:block;
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 26px;
+    font-size: .9em;
+    font-family: 'Josefin Slab', serif;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #981b00;
+}
+
+
+/**************CSS for ID and Classed elements**************/
+
 
 #register_top {
     float: left;
@@ -97,8 +134,6 @@ h2 {
     height: 640px;
 }
 
-
-
 #sign_up_form {
     padding-left: 75px;
     padding-top: 35px;
@@ -106,47 +141,11 @@ h2 {
 
 }
 
-label {
-
-}
-
-input {
-    display:block;
-    width: 230px;
-    margin-top: 5px;
-    margin-left: 5px;
-    background-color: rgba(255, 255, 255, 0.7);
-    height: 26px;
-    font-size: .9em;
-    font-family: 'Josefin Slab', serif;
-}
-
-textarea:focus, input:focus {
-    outline: none;
-    border: 1px solid #981b00;
-}
-
-
 #submit {
     margin-top: 20px;
     width: 140px;
     position:absolute;
     background:white;
     height: 35px;
-
-}
-
-footer {
-    padding-top: 130px;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    color: white;
-    background: #981b00;
-}
-
-footer p {
-    color: white;
-    font-size: 1em;
-    padding-left: 30px;
 
 }
