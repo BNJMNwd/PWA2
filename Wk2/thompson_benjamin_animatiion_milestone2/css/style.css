@@ -1,0 +1,349 @@
+/*Style Sheet for Chez Thompson*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********CSS for main elements *************/
+
+body {
+    font-family: 'Josefin Slab', serif;
+    background-image:url("../images/back.png");
+}
+
+a:link{
+    text-decoration: none;
+    color: #981b00;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #981b00;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+a:active{
+    text-decoration: underline;
+    color: #878787;
+}
+
+p {
+    font-family: 'calibri', serif;
+    padding-top: 40px;
+    padding-left: 55px;
+    max-width: 475px;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+header {
+    color: #981b00;
+    background: #e6dccb;
+    height: 170px;
+    border-bottom: 5px solid #981b00;
+}
+
+h1 {
+    float: left;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+footer {
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    color: white;
+    background: #981b00;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+input {
+    display:block;
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 26px;
+    font-size: .9em;
+    font-family: 'Josefin Slab', serif;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #981b00;
+}
+
+
+/**************CSS for ID and Classed elements**************/
+
+#dashboard_link {
+    float: left;
+    padding-top: 15px;
+    padding-left: 385px;
+    font-size: 1.3em;
+    color: #878787;
+}
+
+#register_top {
+    float: left;
+    padding-top: 15px;
+    padding-left: 385px;
+    font-size: 1.3em;
+    color: #878787;
+}
+
+#register_index {
+    font-size: 2em;
+    padding-top: 25px;
+    padding-left: 55px;
+}
+
+#log_in {
+    padding-top: 15px;
+    padding-left: 880px;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+#log_out {
+    padding-top: 15px;
+    padding-left: 860px;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+
+#wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+    -moz-box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+    box-shadow: 3px 0px 5px 0px rgba(10,12,46,0.69), -3px 0px 5px 0px rgba(10,12,46,0.69);
+
+}
+
+#barrel {
+    clear: left;
+    background-image:url("../images/barrel.png");
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+
+
+#sign_up_form {
+    padding-left: 75px;
+    padding-top: 35px;
+    font-size: 1.3em;
+    max-width: 250px;
+
+}
+
+
+
+#submit {
+    margin-top: 20px;
+    width: 140px;
+    position:absolute;
+    background:white;
+    height: 35px;
+
+}
+
+#current_project {
+    padding: 50px 50px 0 50px;
+    font-size: 2em;
+    float: none;
+}
+
+
+/*tooltip*/
+
+
+#tooltip_container {
+    color: #fff;
+    position: absolute;
+    padding: 10px 20px;
+    max-width: 220px;
+    background-color: rgb(135, 135, 135);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    display: none;
+}
+
+
+.tooltip-html-source{
+    display: none;
+}
+
+
+
+
+
+form {
+    padding: 10px;
+}
+
+form.input {
+    padding: 10px;
+}
+
+
+
+
+
+/*accordion */
+
+
+.mytabs {
+    max-width: 960px;
+    margin-top: 237px;
+    background-color: rgba(135,135,135, .76);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid #e6dccb;
+    border-bottom: 5px solid #e6dccb;
+}
+
+.tabs li {
+    list-style: none;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs a{
+    padding: 5px 30px ;
+    display: inline-block;
+    background: #e6dccb;
+    text-decoration: none;
+}
+
+.tabs li:first-child {
+    margin-left: 310px;
+}
+
+.tabs a:active {
+    background: #981b00;
+    color: #e6dccb;
+}
+
+
+/*modal */
+
+
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+
+#modal {
+    width: 500px;
+    margin-top: 200px;
+    background: #878787 ;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1001;
+    display: none;
+}
+
+
+#modal .header {
+    background: #e6dccb;
+    color: #981b00;
+    padding: 10px;
+    text-align: center
+;
+}
+
+#modal label {
+    margin: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#modal input {
+    height: 20px;
+    width: 200px;
+
+}
+
+#modal .close {
+    position: absolute;
+    right: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+
+#modal input[type=button]{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+input[type=radio] + img{
+    cursor: pointer;
+    border: 2px solid transparent;
+    float: left;
+    margin-left: 40px;
+
+}
+
+input[type=radio]:checked + img {
+    margin-top: 20px;
+    width: 140px;
+}
