@@ -1,0 +1,196 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <!--Links for CSS pages and fonts-->
+    <link rel="stylesheet" href="css/base.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <!--Code for header sections of the site -->
+
+    <header>
+
+        <h1><a href="index.html"><img src="images/400_logo.png"></a></h1>
+
+        <a href="dashboard.html"><div id="dashboard_link">Dashboard</div></a>
+        <a href="#"><div id="logOut">Log Out</div></a>
+
+    </header>
+
+    <!--Code for primary section of site-->
+
+    <div id="barrel">
+
+
+
+
+        <h2 class="userid">Bonjour
+        </h2>
+
+
+        <div class="welcome">
+        <p><a href="#" class="modalClick">Add Recipe +</a>
+            </p>
+
+        </div><!--welcome-->
+
+
+
+
+
+
+
+        <div class="projects">
+            <h3 id="current_project">Current Recipes</h3>
+
+
+        </div><!--projects-->
+
+
+
+        <div id ="projects">
+
+
+        </div><!--projects-->
+
+
+
+        <div id="projectlist">
+
+
+
+
+            <div id="overlay">
+                <div id="modal">
+                    <span class="close"><img src="images/exit.png"></span>
+                    <h3 class="header">Add Project</h3>
+
+
+                    <div id="add">
+                        <form id="addForm">
+                            <label>Recipe Name</label>
+                            <input name="projectName" type="text" id="projectName" />
+                            <br>
+
+                            <label>Recipe Description</label>
+                            <input name="projectDescription" type="text" id="projectDescription" />
+                            <br>
+
+                            <label>Recipe Dream Date</label>
+                            <input name="projectDueDate" type="text" id="projectDueDate" />
+                            <br>
+                              <label for="status">Select Status:</label>
+                            <br>
+
+
+
+                            <label class="mystatus">
+                                <input type="radio" name="status" id="urgent">
+                                <img src="images/urgent.png" width="69" height="75">
+                            </label><!--mystatus-->
+
+                            <label class="mystatus">
+                                <input type="radio" name="status" id="normal">
+                                <img src="images/normal.png" width="69" height="75">
+                            </label><!--mystatus-->
+
+                            <label class="mystatus">
+                                <input type="radio" name="status" id="delayed">
+                                <img src="images/delayed.png" width="69" height="75">
+                            </label><!--mystatus-->
+
+                            <label class="mystatus">
+                                <input type="radio" name="status" id="complete">
+                                <img src="images/complete.png" width="69" height="75">
+                            </label><!--mystatus-->
+
+                            <br>
+                            <input name="addButton" type="button" id="addButton" value="Add"/>
+                        </form>
+
+                    </div><!--add-->
+
+
+                </div><!--modal-->
+            </div><!--overlay-->
+
+
+
+
+        </div><!--projectlist-->
+
+
+
+
+
+
+
+
+
+
+    </div><!--barrel-->
+
+
+
+
+
+
+
+
+
+
+
+    <!--Code for footer section of site-->
+
+    <footer>
+        <p>Chez Thompson | &copy 2014 all rights reserved</p>
+    </footer>
+
+
+</div>
+
+<!-- jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- plugins -->
+
+
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
