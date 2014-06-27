@@ -250,7 +250,6 @@ $('#register').on('click', function(){
 
 
 
-
      var projects = function(){
 
          $.ajax({
@@ -338,6 +337,64 @@ projects();
 
 
 
+/*============================================
+=============================== Auto Complete
+ */
+     var availableTags = [
+         "Crystal ",
+         "Silvestro",
+         "Eric",
+         "Barrera",
+         "Kathryn",
+         "Brunette",
+         "Dakota",
+         "Butcher",
+         "Michael",
+         "Capanelli",
+         "Sammi",
+         "Contreras",
+         "Haskell",
+         "Venus",
+         "Cross",
+         "Angelica",
+         "Dinh",
+         "Michael",
+         "Essien",
+         "Ruby",
+         "Haskell",
+         "Amy",
+         "Littlefield-Bousamra",
+         "Alejandro",
+         "Mokhtarezadeh",
+         "Joanna",
+         "William",
+         "Ruby",
+         "Sodek",
+         "Benjamin",
+         "Java",
+         "JavaScript",
+         "Lisp",
+         "Perl",
+         "PHP",
+         "Steven",
+         "Stark",
+         "Swayngim",
+         "Todd"
+     ];
+     $( ".tags" ).autocomplete({
+         source: availableTags
+     });
+
+     var userNameTags = [
+
+     "Crystal Silvestro is the most amazing professor ever!",
+     "Professor Silvestro Rocks!",
+     "Professor Silvestro is a coding beast!"
+
+     ];
+     $( ".tags_2" ).autocomplete({
+         source: userNameTags
+     });
 
      /*
       ==================================== END EVENTS

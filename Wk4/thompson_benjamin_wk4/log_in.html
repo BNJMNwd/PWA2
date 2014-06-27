@@ -22,9 +22,11 @@
 
     <!-- CSS concatenated and minified via ant build script-->
     <link rel="stylesheet" href="css/base.css?v=1">
-    <link rel="stylesheet" href="css/style.css?v=1">
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css">
 
+
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -46,16 +48,16 @@
         <br>
 
 
-            <div id="login">
-                <form id="loginForm">
-                    <label>Username: </label><input name="signinButton" type="text" id="user" class="masterTooltip"
-                    title="Please enter a username"/><br>
-                    <label>Password: </label><input name="signinButton" type="password" id="pass" class="masterTooltip"
-                    title="Please enter a password"/><br>
-                    <input id="sign_in" name="signinButton" type="button" id="signinButton" value="Sign In"/>
-                </form>
+                <div id="login">
+                    <form id="loginForm">
+                        <label>Username: </label><input name="signinButton" type="text" id="user" class="masterTooltip"
+                                                        title="Please enter a username"/><br>
+                        <label>Password: </label><input name="signinButton" type="password" id="pass" class="masterTooltip"
+                                                        title="Please enter a password"/><br>
+                        <input name="signinButton" type="button" id="signinButton" class="register" value="Sign In" />
+                    </form>
 
-            </div><!--login-->
+                </div><!--login-->
 
 
 
@@ -86,7 +88,6 @@
 
 <!-- plugins -->
 
-<script src="js/jquery-ui-1.10.4.custom.js"></script>
 
 
 <!-- main -->

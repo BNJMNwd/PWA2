@@ -12,22 +12,6 @@
 
 
 
-
-
-
-#sortable {
-    margin-top: 10px;
-
-}
-
-#sign_in {
-margin-top: 20px;
-width: 150px;
-font-size: .7em;
-}
-
-
-
 /***********CSS for main elements *************/
 
 body {
@@ -120,7 +104,7 @@ textarea:focus, input:focus {
     font-size: 1.3em;
 }
 
-#register {
+.register {
     margin-top: 20px;
     width: 150px;
     font-size: .7em;
@@ -217,6 +201,19 @@ max-width: 250px;
 }
 
 
+#sortable {
+    margin-top: 10px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign_in {
+    margin-top: 20px;
+    width: 150px;
+    font-size: .7em;
+}
+
 
 /*tooltip*/
 
@@ -275,6 +272,7 @@ form.input {
     margin-right: auto;
 
 }
+
 
 .tabs a{
     padding: 5px 30px ;

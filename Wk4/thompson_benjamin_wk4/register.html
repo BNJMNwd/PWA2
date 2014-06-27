@@ -17,9 +17,10 @@
     <!-- CSS concatenated and minified via ant build script-->
     <!--Links for CSS pages and fonts-->
     <link rel="stylesheet" href="css/base.css?v=1">
-    <link rel="stylesheet" href="css/style.css?v=1">
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css">
 
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -50,19 +51,19 @@
             <form id="sign_up_form">
 
                 <label data-tip-type="text" data-tip-source="what is your first name?" class="tooltip">
-                    <span>First Name: <input id='first' type="text" name="firstname"><br></span>
+                    <span>First Name: <input id='first' class="tags" type="text" name="firstname"><br></span>
                 </label>
 
                 <label data-tip-type="text" data-tip-source="what is your last name?" class="tooltip">
-                    <span>Last Name: <input id='last' type="text" name="lastname"><br></span>
+                    <span>Last Name: <input id='last' class="tags" type="text" name="lastname"><br></span>
                 </label>
 
                 <label data-tip-type="text" data-tip-source="select a unique username" class="tooltip">
-                    <span>Username: <input id='userName' type="text" name="username"><br></span>
+                    <span>Username: <input id='userName' class="tags_2" type="text" name="username"><br></span>
                 </label>
 
                 <label data-tip-type="text" data-tip-source="enter a valid email address" class="tooltip">
-                    <span>Email: <input id='email' type="text" name="email"><br></span>
+                    <span>Email: <input id='email'type="text" name="email"><br></span>
                 </label>
 
                 <label data-tip-type="text" data-tip-source="select a private password" class="tooltip">
@@ -74,14 +75,12 @@
                 </label>
 
                 <label data-tip-type="text" data-tip-source="sign up now!" class="tooltip">
-                   <!-- <a href="dashboard.html">--><input id="register" type="button" value="Register Now"><!--</a>--></span>
+                   <!-- <a href="dashboard.html">--><input id="register" class="register" type="button" value="Register Now"><!--</a>--></span>
                 </label>
             </form>
 
 
             </div>
-
-
 
 
 
@@ -106,7 +105,7 @@
 	
 	
 	<!-- jquery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!--	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
     <script src="js/jquery-1.11.1.min.js"></script>
 
 
@@ -114,8 +113,9 @@
 
     <!-- plugins -->
 
-	
-	<!-- main -->
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-maxlength.js"></script>
+    <!-- main -->
     <script type="text/javascript" src="js/main.js"></script>
 
 
